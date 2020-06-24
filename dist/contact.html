@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Katie Barriere</title>
+  </head>
+  <body>
+    <nav class="navbar nav-a">
+      <h1></h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="github.html">GitHub</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-----------------------------CONTACT---------------------------------->
+    <section class="container">
+      <div>
+        <h3 class="dark-color large contact-main-title">
+          Get<span> in Touch</span>
+        </h3>
+      </div>
+      <div class="social contact-icons p-2">
+        <a
+          href="https://www.github.com/kt2187"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/katiebarriere"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/katiebarriere"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/katiebarriere"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+
+      <form class="form">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Name*"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email*"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Subject*"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            rows="4"
+            class="form-control"
+            placeholder="Your message..."
+          ></textarea>
+        </div>
+        <div>
+          <a
+            href="javascript:void(0)"
+            class="btn btn-primary p-1"
+            id="submit-btn"
+            onclick="sendEmail()"
+            >Send Message</a
+          >
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
