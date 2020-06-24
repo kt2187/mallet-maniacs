@@ -21,7 +21,7 @@ body {
 
 a {
   text-decoration: none;
-  //  color: $primary-color;
+  color: $primary-color;
 }
 
 ul {
@@ -179,11 +179,11 @@ span {
 -------------------------*/
 .cards {
   margin: 0 auto;
+  max-width: 1200px;
   display: grid;
-  //  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-auto-rows: auto;
-  gap: 20px;
+  grid-gap: 1rem;
   padding-top: 30px;
 }
 
@@ -260,3 +260,12 @@ span {
 .contact-icons {
   text-align: center;
 }
+
+/*-------------------------
+          GitHub Repos
+-------------------------*/
+//.profile-github {
+//  display: grid;
+//  grid-template-areas: 'github github';
+//  grid-gap: 1rem;
+//}

@@ -1,0 +1,5 @@
+- Fix icon colors on contact page
+- Get form working
+- Integrate Twitter and GitHub feeds
+- Fix project cards height
+- Fix navbar 
