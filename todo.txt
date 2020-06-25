@@ -3,3 +3,5 @@
 - Integrate Twitter and GitHub feeds
 - Fix project cards height
 - Fix navbar 
+- Fix Slink picture
+- Add responsiveness to about me
