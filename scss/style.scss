@@ -159,23 +159,10 @@ img {
 /*-------------------------
           ABOUT
 -------------------------*/
-//.profile {
-//  display: grid;
-//  grid-template-columns: 6fr 6fr;
-//  grid-gap: 4rem;
-//  align-items: center;
-//  padding: 1rem;
-//  line-height: 1.8;
-//  margin-bottom: 1rem;
-//}
 
 span {
   color: $primary-color;
 }
-
-//.about-heading {
-//  margin-top: 3.2rem;
-//}
 
 .about-paragraph {
   line-height: 22px;
@@ -183,17 +170,36 @@ span {
   text-indent: 12px;
 }
 
-// Profiles Page
-.profile {
-  display: grid;
-  grid-template-columns: 2fr 6fr;
-  grid-gap: 2rem;
+.profile-top {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 1rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
+  justify-content: center;
+  text-align: center;
+
+  img {
+    width: 250px;
+  }
+
+  .icons a {
+    color: $primary-color;
+    margin: 0 0.3rem;
+
+    &:hover {
+      color: $dark-color;
+    }
+  }
 }
 
+.profile-about {
+  grid-area: about;
+  text-align: center;
+}
+
+//  p {
+//    margin: 0.5rem 0;
+//  }
 /*-------------------------
           PROJECTS
 -------------------------*/

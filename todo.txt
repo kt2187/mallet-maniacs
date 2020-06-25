@@ -2,6 +2,6 @@
 - Get form working
 - Integrate Twitter and GitHub feeds
 - Fix project cards height
-- Fix navbar 
+- Fix navbar - Add responsiveness
 - Fix Slink picture
-- Add responsiveness to about me
+- Add responsiveness to about me -Completed
