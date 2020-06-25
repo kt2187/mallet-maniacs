@@ -1,7 +1,6 @@
 @import 'config';
 @import 'utilities';
 @import 'form';
-@import 'mobile';
 
 /*-------------------------
           CORE STYLES
@@ -160,28 +159,39 @@ img {
 /*-------------------------
           ABOUT
 -------------------------*/
-.profile {
-  display: grid;
-  grid-template-columns: 6fr 6fr;
-  grid-gap: 4rem;
-  align-items: center;
-  padding: 1rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
-}
+//.profile {
+//  display: grid;
+//  grid-template-columns: 6fr 6fr;
+//  grid-gap: 4rem;
+//  align-items: center;
+//  padding: 1rem;
+//  line-height: 1.8;
+//  margin-bottom: 1rem;
+//}
 
 span {
   color: $primary-color;
 }
 
-.about-heading {
-  margin-top: 3.2rem;
-}
+//.about-heading {
+//  margin-top: 3.2rem;
+//}
 
 .about-paragraph {
   line-height: 22px;
   margin-bottom: 20px;
   text-indent: 12px;
+}
+
+// Profiles Page
+.profile {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
 }
 
 /*-------------------------
@@ -277,3 +287,5 @@ span {
 .profile-github {
   grid-area: github;
 }
+
+@import 'mobile';
