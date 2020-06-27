@@ -4,7 +4,7 @@
   }
 
   .container {
-    margin-top: 8rem;
+    //margin-top: 1rem;
   }
 
   // Text Styles
@@ -20,20 +20,6 @@
     font-size: 1rem;
   }
 
-  // Navbar
-  .navbar {
-    display: block;
-    text-align: center;
-
-    ul {
-      text-align: center;
-      justify-content: center;
-    }
-
-    h1 {
-      margin-bottom: 1rem;
-    }
-  }
   // Profiles
   .profile {
     grid-template-columns: 1fr;
@@ -45,28 +31,6 @@
   }
 
   .profile-grid {
-    grid-template-areas:
-      'top'
-      'about'
-      'edu'
-      'act'
-      'awards'
-      'service'
-      'exp'
-      'cert';
-  }
-
-  .profile-about {
-    .skills {
-      flex-direction: column;
-    }
-  }
-
-  .post {
-    grid-template-columns: 1fr;
-    a,
-    button {
-      padding: 0.3rem 0.4rem;
-    }
+    grid-template-areas: 'top';
   }
 }

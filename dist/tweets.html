@@ -17,17 +17,24 @@
     <title>Katie Barriere</title>
   </head>
   <body>
-    <nav class="navbar nav-a">
-      <h1></h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="github.html">GitHub</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="github.html">GitHub</a></li>
+              <li><a href="tweets.html">Tweets</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-----------------------------Tweets---------------------------------->
     <section class="container tweets-section">
       <div>
@@ -38,21 +45,14 @@
       <div class="profile-tweets">
         <div class="repo bg-white my-1">
           <div>
-            <!--<h4><a href="/">Tweet One</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-              <li class="badge badge-primary">Stars: 44</li>
-              <li class="badge badge-dark">Watcherss: 34</li>
-              <li class="badge badge-lights">Forks: 24</li>
-            </ul>-->
             <a
               class="twitter-timeline"
               data-lang="en"
               data-width="1200"
               data-height="2200"
               data-theme="light"
+              data-tweet-limit="15"
+              data-link-color="#ff645e"
               href="https://twitter.com/KatieBarriere?ref_src=twsrc%5Etfw"
               >Tweets by KatieBarriere</a
             >
@@ -64,98 +64,6 @@
           </div>
         </div>
       </div>
-      <!--<div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Two</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-              <li class="badge badge-primary">Stars: 44</li>
-              <li class="badge badge-dark">Watcherss: 34</li>
-              <li class="badge badge-lights">Forks: 24</li>
-            </ul>
-          </div>
-        </div>
-        <div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Three</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-              <li class="badge badge-primary">Hearts: 44</li>
-              <li class="badge badge-dark">Shares: 34</li>
-              <li class="badge badge-lights">Comments: 24</li>
-            </ul>
-          </div>
-        </div>
-        <div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Four</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-                <li class="badge badge-primary">Hearts: 44</li>
-                <li class="badge badge-dark">Shares: 34</li>
-                <li class="badge badge-lights">Comments: 24</li>
-            </ul>
-          </div>
-        </div>
-        <div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Five</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-                <li class="badge badge-primary">Hearts: 44</li>
-                <li class="badge badge-dark">Shares: 34</li>
-                <li class="badge badge-lights">Comments: 24</li>
-            </ul>
-          </div>
-        </div>
-        <div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Six</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-                <li class="badge badge-primary">Hearts: 44</li>
-                <li class="badge badge-dark">Shares: 34</li>
-                <li class="badge badge-lights">Comments: 24</li>
-            </ul>
-          </div>
-        </div>
-        <div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Seven</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-                <li class="badge badge-primary">Hearts: 44</li>
-                <li class="badge badge-dark">Shares: 34</li>
-                <li class="badge badge-lights">Comments: 24</li>
-            </ul>
-          </div>
-        </div>
-        <div class="repo bg-white my-1">
-          <div>
-            <h4><a href="/">Tweet Eight</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <ul>
-                <li class="badge badge-primary">Hearts: 44</li>
-                <li class="badge badge-dark">Shares: 34</li>
-                <li class="badge badge-lights">Comments: 24</li>
-            </ul>
-          </div>
-        </div>
-      </div>-->
     </section>
     <footer>
       Copyright <span>&copy;</span> 2020. Website and projects designed and
