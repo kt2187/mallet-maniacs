@@ -1,7 +1,7 @@
-- Fix icon colors on contact page
-- Get form working - In progress - works but need to add validation
-- Integrate Twitter and GitHub feeds
-- Fix project cards height
-- Fix navbar - Add responsiveness
-- Fix Slink picture
+- Fix icon colors on contact page - Still needs to be updated
+- Get form working - Works in test folder. Need to write the php in separate file?
+- Integrate Twitter and GitHub feeds - Completed but need to learn more about GitHub API limits
+- Fix project cards height - Completed
+- Fix navbar - Add responsiveness - Completed
+- Fix Slink picture - Completed
 - Add responsiveness to about me -Completed

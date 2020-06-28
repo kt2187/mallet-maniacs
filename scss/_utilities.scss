@@ -45,6 +45,16 @@
   color: $primary-color;
 }
 
+.alert-danger {
+  background-color: $alert-danger;
+  color: white;
+}
+
+.alert-success {
+  background-color: $alert-success;
+  color: white;
+}
+
 .text-color {
   color: $text-color;
 }
