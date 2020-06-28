@@ -20,7 +20,7 @@
         $msgClass = 'alert-danger';
       } else {
         // Passed
-        $toEmail = 'kt@katiebarriere.com';
+        $toEmail = '';
         $subject = 'Contact Request From '.$name;
         $body = '<h2>Contact Request</h2>
           <h4>Name</h4><p>'.$name.'</p>
@@ -84,7 +84,7 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="github.html">GitHub</a></li>
                 <li><a href="tweets.html">Tweets</a></li>
-                <li><a href="http://www.askmeaboutmycats.com/index.php">Contact</a></li>
+                <li><a href="http://www.katiebarriere.com/index.php">Contact</a></li>
               </ul>
             </div>
           </div>
