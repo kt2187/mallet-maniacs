@@ -254,12 +254,10 @@ img {
   }
 }
 
-.box {
-  background-color: $primary-color;
-  display: inline-block;
-  padding: 10px 40px;
-  font-size: 20px;
-  border-radius: 5px;
+.home-title,
+.home-subtitle {
+  letter-spacing: 0.3rem;
+  text-shadow: 0.5rem 0.5rem 0.5rem #333;
 }
 
 .animated {
