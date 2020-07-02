@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .container {
-    //margin-top: 1rem;
-  }
-
   // Text Styles
   .x-large {
     font-size: 3rem;
@@ -32,5 +28,10 @@
 
   .profile-grid {
     grid-template-areas: 'top';
+  }
+
+  .profile-top {
+    margin-top: 1;
+    padding: 0;
   }
 }

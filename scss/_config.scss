@@ -1,5 +1,6 @@
-$primary-color: #ff645e;
+$primary-color: #ffd700;
 $dark-color: #000000;
+$dark-color2: #333;
 $light-color: #fff;
 $text-color: #6f6f6f;
 $alert-danger: #dc143c;
@@ -30,7 +31,7 @@ $spaceamounts: (1, 2, 3, 4, 5);
     margin: #{$space}rem;
   }
 
-  // Vartical margin
+  // Vertical margin
   .my-#{$space} {
     margin: #{$space}rem 0;
   }
@@ -40,7 +41,7 @@ $spaceamounts: (1, 2, 3, 4, 5);
     padding: #{$space}rem;
   }
 
-  // Vartical padding
+  // Vertical padding
   .py-#{$space} {
     padding: #{$space}rem 0;
   }

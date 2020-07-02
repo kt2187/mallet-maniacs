@@ -69,7 +69,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.min.css" />
-    <title>Katie Barriere</title>
+    <title>Mallet Maniacs</title>
   </head>
   <body data-theme="dark">
     <div class="menu-wrap">
@@ -79,12 +79,13 @@
           <div>
             <div>
               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="github.html">GitHub</a></li>
-                <li><a href="tweets.html">Tweets</a></li>
-                <li><a href="http://www.katiebarriere.com/index.php">Contact</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="facebook.html">Facebook</a></li>
+              <li><a href="youtube.html">YouTube</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="index.php">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -95,37 +96,6 @@
         <h3 class="dark-color large contact-main-title">
           Get<span> in Touch</span>
         </h3>
-      </div>
-      <div class="social contact-icons p-2">
-        <a
-          href="https://www.github.com/kt2187"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-        <a
-          href="https://www.twitter.com/katiebarriere"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a
-          href="https://www.facebook.com/katiebarriere"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/katiebarriere"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
       <?php if($msg != ''): ?>
         <div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
       <?php endif; ?>
@@ -145,7 +115,7 @@
       </div>
     </section>
     <footer>
-      Copyright <span>&copy;</span> 2020. Website and projects designed and
+      Copyright <span>&copy;</span> 2020. Website designed and
       developed by <span>Katie</span> Barriere
     </footer>
   </body>
