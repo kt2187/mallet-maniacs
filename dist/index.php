@@ -20,7 +20,7 @@
         $msgClass = 'alert-danger';
       } else {
         // Passed
-        $toEmail = '';
+        $toEmail = 'kbarriere@gmail.com';
         $subject = 'Contact Request From '.$name;
         $body = '<h2>Contact Request</h2>
           <h4>Name</h4><p>'.$name.'</p>
@@ -79,13 +79,14 @@
           <div>
             <div>
               <ul>
-              <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="schedule.html">Schedule</a></li>
               <li><a href="facebook.html">Facebook</a></li>
               <li><a href="youtube.html">YouTube</a></li>
               <li><a href="music.html">Music</a></li>
-              <li><a href="index.php">Contact</a></li>
+              <li><a href="http://www.askmeaboutmycats.com/index.php">Contact</a></li>
+
               </ul>
             </div>
           </div>
@@ -96,6 +97,23 @@
         <h3 class="dark-color large contact-main-title">
           Get<span> in Touch</span>
         </h3>
+      </div>
+      <div class="social contact-icons p-2">
+         <a
+              href="https://www.youtube.com/user/rjmdrum"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/rjmdrum"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+      </div>
       <?php if($msg != ''): ?>
         <div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
       <?php endif; ?>
