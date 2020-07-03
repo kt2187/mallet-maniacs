@@ -41,10 +41,61 @@
       <h1 class="large dark-color contact-main-title">ABOUT <span>US</span></h1>
       <div class="profile-grid my-1">
         <div class="profile-top p-2">
-          <img
-            src="/dist/img/malletmaniacsstage.jpg"
-            alt="Mallet maniacs performance"
-          />
+          <div class="carousel">
+            <button
+              class="carousel__button carousel__button--left is-hidden text-light"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                  <iframe
+                    class="carousel__image"
+                    src="https://www.youtube.com/embed/xXRpR3P-G9M"
+                    frameborder="0"
+                  ></iframe>
+                </li>
+                <li class="carousel__slide">
+                  <iframe
+                    class="carousel__image"
+                    src="https://www.youtube.com/embed/2h_Pyn3fUd4?start=30"
+                    frameborder="0"
+                  ></iframe>
+                </li>
+
+                <li class="carousel__slide">
+                  <img
+                    class="carousel__image"
+                    src="./img/ensemble1.jpg"
+                    alt="band"
+                  />
+                </li>
+                <li class="carousel__slide">
+                  <img
+                    class="carousel__image"
+                    src="./img/ensemble2.jpg"
+                    alt="band"
+                  />
+                </li>
+                <li class="carousel__slide">
+                  <img
+                    class="carousel__image"
+                    src="./img/ensemble3.jpg"
+                    alt="band"
+                  />
+                </li>
+              </ul>
+            </div>
+            <button class="carousel__button carousel__button--right text-light">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+            </div>
+          </div>
           <h2 class="about-heading large">Mallet <span> Maniacs</span></h2>
           <p class="about-paragraph">
             This is a new site set up for Mallet Maniacs Community Percussion
@@ -84,5 +135,6 @@
         <span>Katie</span> Barriere
       </footer>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -42,55 +42,55 @@ img {
   --menu-speed: 0.75s;
 }
 
-.showcase {
-  background: var(--primary-color);
-  color: #fff;
-  height: 100vh;
-  position: relative;
-}
+//.showcase {
+//  background: var(--primary-color);
+//  color: #fff;
+//  height: 100vh;
+//  position: relative;
+//}
 
-.showcase:before {
-  content: '';
-  background: url('../img/xylophone.jpg') no-repeat center center/cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
+//.showcase:before {
+//  content: '';
+//  background: url('../img/xylophone.jpg') no-repeat center center/cover;
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 100%;
+//  z-index: -1;
+//}
 
-.showcase .showcase-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100%;
-}
+//.showcase .showcase-inner {
+//  display: flex;
+//  flex-direction: column;
+//  align-items: center;
+//  justify-content: center;
+//  text-align: center;
+//  height: 100%;
+//}
 
-.showcase h1 {
-  font-size: 4rem;
-}
+//.showcase h1 {
+//  font-size: 4rem;
+//}
 
-.showcase p {
-  font-size: 1.3rem;
-}
+//.showcase p {
+//  font-size: 1.3rem;
+//}
 
-.btn {
-  display: inline-block;
-  border: none;
-  background: var(--primary-color);
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
-  text-decoration: none;
-}
+//.btn {
+//  display: inline-block;
+//  border: none;
+//  background: var(--primary-color);
+//  color: #fff;
+//  padding: 0.75rem 1.5rem;
+//  margin-top: 1rem;
+//  transition: opacity 1s ease-in-out;
+//  text-decoration: none;
+//}
 
-.btn:hover {
-  opacity: 0.7;
-}
+//.btn:hover {
+//  opacity: 0.7;
+//}
 
 /* MENU STYLES */
 .menu-wrap {
@@ -320,7 +320,6 @@ img {
 /*-------------------------
           ABOUT
 -------------------------*/
-
 span {
   color: $primary-color;
 }
@@ -340,9 +339,9 @@ span {
   text-align: center;
   margin-top: 50px;
 
-  img {
-    width: 500px;
-  }
+  //  img {
+  //    width: 500px;
+  //  }
 
   .icons a {
     color: $primary-color;
@@ -363,6 +362,87 @@ span {
   margin-top: 25px;
 }
 
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel__track-container {
+  background: #333;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* height: 50px; */
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel__button--left {
+  left: -45px;
+}
+
+.carousel__button--right {
+  right: -40px;
+}
+
+.carousel__button img {
+  width: 10px;
+}
+
+.carousel__nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel__indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgb(0, 0, 0.3);
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.carousel__indicator.current-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.is-hidden {
+  display: none;
+}
 /*-------------------------
           PROJECTS
 -------------------------*/
