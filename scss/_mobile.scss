@@ -26,11 +26,13 @@
     }
   }
 
-  .profile-grid {
+  .profile-grid,
+  .youtube-grid {
     grid-template-areas: 'top';
   }
 
-  .profile-top {
+  .profile-top,
+  .youtube-top {
     margin-top: 1;
     padding: 0;
   }

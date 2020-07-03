@@ -324,6 +324,10 @@ span {
   color: $primary-color;
 }
 
+.about-main-title {
+  text-align: center;
+}
+
 .about-paragraph {
   line-height: 22px;
   margin-bottom: 20px;
@@ -552,6 +556,35 @@ span {
   text-align: center;
 }
 
+/*-------------------------
+        YouTube Playlists
+-------------------------*/
+.youtube-page {
+  justify-content: center;
+}
+
+.youtube-main-title {
+  text-align: center;
+}
+
+.youtube-top {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+
+  .icons a {
+    color: $primary-color;
+    margin: 0 0.3rem;
+
+    &:hover {
+      color: $dark-color;
+    }
+  }
+}
 /*-------------------------
           Footer
 -------------------------*/
