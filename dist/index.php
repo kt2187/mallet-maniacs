@@ -20,7 +20,7 @@
         $msgClass = 'alert-danger';
       } else {
         // Passed
-        $toEmail = 'kbarriere@gmail.com';
+        $toEmail = '';
         $subject = 'Contact Request From '.$name;
         $body = '<h2>Contact Request</h2>
           <h4>Name</h4><p>'.$name.'</p>
@@ -100,14 +100,14 @@
       </div>
       <div class="social contact-icons p-2">
          <a
-              href="https://www.youtube.com/user/rjmdrum"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fab fa-youtube fa-2x"></i>
             </a>
             <a
-              href="https://www.facebook.com/rjmdrum"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
