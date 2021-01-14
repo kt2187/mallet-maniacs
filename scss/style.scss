@@ -37,7 +37,7 @@ img {
 /* CORE STYLES */
 :root {
   //  --primary-color: rgba(13, 110, 139, 0.75);
-  --primary-color: rgba(255, 215, 0, 1);
+  --primary-color: rgba(251, 234, 42, 1);
   --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
 }
@@ -207,7 +207,7 @@ img {
   height: 100vh;
 
   &-inner {
-    color: #ffd700;
+    color: #fbea2a;
     height: 100%;
     display: flex;
     flex-direction: column;
